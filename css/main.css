@@ -1,4 +1,78 @@
 /*
+    -----> General info <------
+     
     Project Name: Elite Corp
     Developer: Asem Antar
+    
+    firstColor: #08526d
+    secondColor: #ec1c23
 */
+
+/* Start upper bar */
+.upper-bar{
+    background: #08526d;
+    color: #fff;
+    padding: 10px;
+}
+
+.upper-bar span{
+    color: #bfc6c9;
+}
+
+
+.upper-bar .quote-btn{
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+/* End upper bar */
+
+
+/* Start NavBar*/
+.navbar-brand > span{
+    font-size: 40px;
+}
+
+.navbar-brand span:first-child{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.navbar-brand span:last-child{
+    color: #ec1c23;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #08526d;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: #ec1c23;
+}
+/* End NavBar*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
