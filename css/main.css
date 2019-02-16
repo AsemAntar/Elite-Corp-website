@@ -150,7 +150,46 @@ body{
 
 
 
+/* Start overview */
+.overview{
+    padding: 150px 0;
+    background-color: #f0f5f7;
+}
 
+.overview h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.overview p{
+    line-height: 2;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #6a6a6a;
+}
+
+.overview h4{
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #8b8a8a;
+    margin-bottom: 60px;
+}
+
+.overview button{
+    background: #ec1c23;
+    color: #fff;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid #ec1c23;
+}
+/* End overview */
 
 
 
