@@ -177,6 +177,7 @@ body{
     font-weight: normal;
     color: #8b8a8a;
     margin-bottom: 60px;
+    text-transform: uppercase;
 }
 
 .overview button{
@@ -192,6 +193,75 @@ body{
 /* End overview */
 
 
+/* Start Featured Work */
+.featured-work{
+    padding: 100px 0;
+}
+
+.featured-work h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.featured-work p{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #6a6a6a;
+}
+
+.featured-work ul{
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.featured-work ul li{
+    color: #08526d;
+    border: 2px solid #08526d;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+    font-size: 1.1rem;
+}
+
+.featured-work ul li.active,
+.featured-work ul li:hover{
+    background-color: #ec1c23;
+    border-color: #ec1c23;
+    color: #FFF;
+}
+
+.featured-work ul li:hover{
+    cursor: pointer;
+}
+
+.shuffle-imgs{
+    
+}
+
+.featured-work .shuffle-imgs .row{
+    margin: 0
+}
+
+.featured-work .shuffle-images .col-sm-6{
+    padding: 0;
+    transition: all 1s ease-in-out;
+}
+
+.featured-work .row img{
+    width: 100%;
+}
+
+/* End Featured Work */
+
+/*firstColor: #08526d
+secondColor: #ec1c23*/
 
 
 
