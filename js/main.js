@@ -15,7 +15,7 @@ $(function (){
         if($(this).data('class') === 'all') {
             $('.shuffle-imgs .col-lg-3').css('opacity', 1);
         } else{
-            $('.shuffle-imgs .col-lg-3').css('opacity', 0.2);
+            $('.shuffle-imgs .col-lg-3').css('opacity', 0.1);
             $($(this).data('class')).parent().css('opacity', 1) ;
         }
     });

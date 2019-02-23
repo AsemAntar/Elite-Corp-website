@@ -8,6 +8,10 @@
     secondColor: #ec1c23
 */
 
+body{
+    height: 8000px;
+}
+
     img{
         width: 100%;
     }
@@ -301,25 +305,20 @@
 
 /*Start Testimonials section*/
 .testimonials{
+    -webkit-background-size: cover;
     background-size: cover;
-    background-image: url('../img/feature1.jpg');
-    position: relative;
-    height: 400px;
+    background: url('../img/1920.jpg');
+    /*position: relative;*/
 }
 
     .testimonials .overlay{
-        position: absolute;
+        /*position: absolute;
         width: 100%;
         height: 100%;
         left: 0;
-        top: 0;
-        background: rgba(0, 0, 0, 0.6);
+        top: 0;*/
+        background: rgba(0, 0, 0, 0.8);
         z-index: 2;
-    }
-    
-    .testimonials #testimonials a.carousel-control-prev,
-    .testimonials #testimonials a.carousel-control-next{
-        z-index: 5;
     }
     
     .testimonials .carousel-indicators li{
@@ -330,6 +329,23 @@
         border-radius: 50%;
     }
     
+    .testimonials img.avatar{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 50px;
+    }
+    
+    .testimonials .carousel-caption{
+        bottom: 120px;
+    }
+    
+    .testimonials .carousel-caption h5{
+        font-size: 2rem;
+    }
+    
+    .testimonials .carousel-caption h6{
+        font-size: 1.2rem;
+    }
 /*End Testimonials section*/
 /*firstColor: #08526d
 secondColor: #ec1c23*/
