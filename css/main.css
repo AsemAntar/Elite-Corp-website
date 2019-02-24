@@ -307,8 +307,8 @@ body{
 .testimonials{
     -webkit-background-size: cover;
     background-size: cover;
-    background: url('../img/1920.jpg');
-    /*position: relative;*/
+    background: url('../img/feature2.jpg');
+    position: relative;
 }
 
     .testimonials .overlay{
@@ -347,6 +347,13 @@ body{
         font-size: 1.2rem;
     }
 /*End Testimonials section*/
+
+
+/* Start pricing table */
+.pricing-table{
+    margin-top: 50px;
+}
+/* End pricing table */
 /*firstColor: #08526d
 secondColor: #ec1c23*/
 
