@@ -351,9 +351,111 @@ body{
 
 /* Start pricing table */
 .pricing-table{
-    margin-top: 50px;
+    background-color: #f7f7f7;
+    padding: 100px 0 100px;
 }
+
+    .pricing-table h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .pricing-table .card{
+        margin-bottom: 20px;
+    }
+
+    .pricing-table .section-description{
+        line-height: 1.6;
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 85px;
+        color: #6a6a6a;
+    }
+    
+    .pricing-table .card-body{
+        padding: 0;
+    }
+    
+    .pricing-table .card .card-title{
+        font-size: 20px;
+        line-height: 1.5;
+        color: #08526d;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    
+    .pricing-table .card .card-text{
+        color: #9a9a9a;
+        margin:30px 0 10px;
+        background-color: #f7f7f7;
+        padding: 10px;
+        font-size: 30px;
+        color: #08526d;
+        font-weight: bold;
+    }
+    
+    .pricing-table .card .card-text span{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    .pricing-table .list-group-item{
+        border: none;
+    }
+
+    .pricing-table .card .card-link{
+        background-color: #ec1c23;
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 30px 0 50px 0;
+        color: #FFF;
+        text-transform: uppercase;
+    }
+    
+    .pricing-table .card.corporate{
+        position: relative;
+        top: -20px;
+    }
+    
+    .pricing-table .card.corporate .card-text{
+        background-color: #ec1c23;
+        color: white;
+    }
+    
+    .pricing-table .card.corporate .card-link{
+        background-color: #08526d;        
+    }
 /* End pricing table */
+
+
+/* Start Statistics */
+.stat{
+    padding: 100px 0;
+    color: #08526d;
+}
+
+    .stat .stat-box{
+        margin-bottom: 20px;
+    }
+
+    .stat span{
+        display: block;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .stat p{
+        color: #ec1c23;
+        font-size: 18px;
+        font-weight: bold;
+    }
+/* End Statistics */
+
+
+
 /*firstColor: #08526d
 secondColor: #ec1c23*/
 
