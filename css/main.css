@@ -455,6 +455,25 @@ body{
 /* End Statistics */
 
 
+/* Start Footer */
+.footer{
+    padding: 100px 0;
+}
+
+    .footer  span{
+        font-size: 40px;
+    }
+
+    .footer .site-info span:first-of-type{
+        color: #08526d;
+        font-weight: bold;
+    }
+
+    .footer .site-info span:last-of-type{
+        color: #ec1c23;
+    }
+/* End Footer */
+
 
 /*firstColor: #08526d
 secondColor: #ec1c23*/
